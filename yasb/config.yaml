@@ -116,11 +116,11 @@ widgets:
       gallery:
         enabled: true
         blur: true
-        image_width: 296
+        image_width: 200
         image_per_page: 6
         show_buttons: true
         orientation: "portrait"
-        image_spacing: 10
+        image_spacing: 12
         lazy_load: true
         lazy_load_delay: 10
         lazy_load_fadein: 200
@@ -130,8 +130,8 @@ widgets:
     type: "yasb.systray.SystrayWidget"
     options:
       class_name: "systray"
-      label_collapsed: "⟶"
-      label_expanded: "⟵"
+      label_collapsed: " 󰚥 "
+      label_expanded: " 󰚥 "
       label_position: "right"
       icon_size: 14
       pin_click_modifier: "alt"
