@@ -1,6 +1,6 @@
 {
-    "$schema":  "file:///C:/Users/ngxuanchat/.config/komorebi/komorebi-schema.json",
-    "app_specific_configuration_path":  "C:\\Users\\ngxuanchat\\.config\\komorebi\\applications.json",
+    "$schema":  "file:///C:/Users/yourusersname/.config/komorebi/komorebi-schema.json",
+    "app_specific_configuration_path":  "C:\\Users\\yourusersname\\.config\\komorebi\\applications.json",
     "window_hiding_behaviour":  "Cloak",
     "cross_monitor_move_behaviour":  "Insert",
     "mouse_follows_focus":  false,
