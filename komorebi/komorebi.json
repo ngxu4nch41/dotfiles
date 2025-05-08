@@ -11,6 +11,7 @@
     "border_offset":  -1,
     "border_implementation":  "Windows",
     "border_style":  "System",
+    },
     "unmanaged_window_operation_behaviour":  "NoOp",
     "transparency":  true,
     "transparency_alpha":  220,
@@ -33,10 +34,10 @@
                                 }
                   },
     "border_colours":  {
-                            "single":  "#6ea4fc",
-                            "stack":  "#a6e3a1",
-                            "monocle":  "#f38ba8",
-                            "unfocused":  "#3a5977"
+                                    "single": "#e9b143",
+                                    "monocle": "#af2528",
+                                    "unfocused": "#e0e9d3",
+                                    "stack": "#266b79"
                        },
     "stackbar":  {
                       "height":  34,
