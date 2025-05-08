@@ -118,11 +118,11 @@ widgets:
         blur: true
         image_width: 200
         image_per_page: 6
-        show_buttons: true
+        show_buttons: false
         orientation: "portrait"
-        image_spacing: 12
+        image_spacing: 10
         lazy_load: true
-        lazy_load_delay: 10
+        lazy_load_delay: 12
         lazy_load_fadein: 200
         image_corner_radius: 20
         enable_cache: true
