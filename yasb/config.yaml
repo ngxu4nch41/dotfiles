@@ -130,8 +130,8 @@ widgets:
     type: "yasb.systray.SystrayWidget"
     options:
       class_name: "systray"
-      label_collapsed: "󰚥 "
-      label_expanded: "📎 "
+      label_collapsed: "⟶"
+      label_expanded: "⟵"
       label_position: "right"
       icon_size: 14
       pin_click_modifier: "alt"
