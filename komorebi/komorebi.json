@@ -4,14 +4,13 @@
     "window_hiding_behaviour":  "Cloak",
     "cross_monitor_move_behaviour":  "Insert",
     "mouse_follows_focus":  false,
-    "default_workspace_padding":  2,
-    "default_container_padding":  4,
+    "default_workspace_padding":  1,
+    "default_container_padding":  5,
     "border":  true,
-    "border_width":  6,
+    "border_width":  3,
     "border_offset":  -1,
-    "border_implementation":  "Windows",
-    "border_style":  "System",
-    },
+    "border_style":  "Rounded",
+    "border_implementation": "Komorebi",
     "unmanaged_window_operation_behaviour":  "NoOp",
     "transparency":  true,
     "transparency_alpha":  220,
@@ -34,10 +33,10 @@
                                 }
                   },
     "border_colours":  {
-                                    "single": "#e9b143",
-                                    "monocle": "#af2528",
-                                    "unfocused": "#e0e9d3",
-                                    "stack": "#266b79"
+        "single": "#e9b143",
+        "monocle": "#af2528",
+        "unfocused": "#e0e9d3",
+        "stack": "#266b79"
                        },
     "stackbar":  {
                       "height":  34,
