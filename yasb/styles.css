@@ -23,6 +23,17 @@ color: #d4be98;
 .widget .label:hover {
     color: #fff;
 }
+
+
+
+.volume-slider {
+  border: none;
+}
+.volume-slider::groove {}
+.volume-slider::handle{}
+.audio-menu {
+  background-color:rgba(17, 17, 27, 0.4);
+}
 .container-left,
 .container-center,
 .container-right {
