@@ -2,9 +2,9 @@ watch_stylesheet: true
 watch_config: true
 
 komorebi:
-  start_command: "pwsh -Command komorebic start --ahk"
+  start_command: "komorebic start --whkd"
   stop_command: "komorebic stop"
-  reload_command: "pwsh -Command komorebic stop && komorebic start --ahk"
+  reload_command: "komorebic stop && komorebic start --whkd"
 
 bars:
   status-bar:
