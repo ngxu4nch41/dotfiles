@@ -15,8 +15,8 @@ bars:
       position: "top"
       center: true
     blur_effect:
-      enabled: true 
-      acrylic: true 
+      enabled: false
+      acrylic: false 
       dark_mode: false
       round_corners: false
       border_color: None
@@ -24,21 +24,25 @@ bars:
       always_on_top: false
       windows_app_bar: true
     dimensions:
-      width: "100%"
+      width: "70%"
       height: 40
     padding:
       top: 3
       left: 0
       bottom: 0
-      right: 8
+      right: 0
     widgets:
       left:
         [
           "search_button",
           "komorebi_workspaces",
-          "wallpapers"
+          "wallpapers",
+          
+          
         ]
-      center: ["clock"]
+      center: [
+        "clock"
+      ]
       right: 
           [
         systray,
@@ -50,8 +54,8 @@ widgets:
   active_window:
     type: "yasb.active_window.ActiveWindowWidget"
     options:
-      label: "{win[title]}"
-      label_alt: "[class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}]"
+      label: " {win[title]} "
+      label_alt: " [class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}] "
       label_no_window: ""
       max_length: 56
       label_icon: true
@@ -75,7 +79,7 @@ widgets:
       type: "komorebi.workspaces.WorkspaceWidget"
       options:
         label_offline: "Komorebi Offline"
-        label_workspace_btn: "\uf4c3"
+        label_workspace_btn: " \uf4c3 "
         label_default_name: "{index}"
         label_zero_index: false
         hide_empty_workspaces: false
@@ -83,7 +87,7 @@ widgets:
   search_button:
       type: "yasb.custom.CustomWidget"
       options:
-        label: "\uf0e7"
+        label: " \uf0e7 "
         label_alt: "<span>\uf422</span> Search"
         class_name: "search-widget"
         exec_options:
@@ -159,10 +163,10 @@ widgets:
       label_collapsed: "▼"
       label_expanded: "▶"
       label_position: "left" # Can be "left" or "right"
-      icon_size: 16 # Can be any integer between 8 and 64
+      icon_size: 14 # Can be any integer between 8 and 64
       pin_click_modifier: "alt" # Can be "ctrl", "alt" or "shift"
-      show_unpinned: true
-      show_unpinned_button: true
+      show_unpinned: false
+      show_unpinned_button: false
       show_battery: false
       show_volume: false
       show_network: false
