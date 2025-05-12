@@ -36,7 +36,7 @@ bars:
         [
           "search_button",
           "komorebi_workspaces",
-          active_window
+          
         ]
       center: [
         "clock"
