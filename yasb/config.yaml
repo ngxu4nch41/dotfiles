@@ -44,8 +44,8 @@ bars:
       right: 
           [
         systray,
-        "wallpapers",
         volume,
+        "wallpapers",
         power_menu
           ]
 
