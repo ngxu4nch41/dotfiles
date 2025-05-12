@@ -12,13 +12,13 @@ bars:
     screens: ['*']
     class_name: "yasb-bar"
     alignment:
-      position: "top"
+      position: "bottom"
       center: true
     blur_effect:
-      enabled: false
+      enabled: true
       acrylic: false 
       dark_mode: false
-      round_corners: false
+      round_corners: true
       border_color: None
     window_flags:
       always_on_top: false
@@ -27,7 +27,7 @@ bars:
       width: "70%"
       height: 40
     padding:
-      top: 3
+      top: 0
       left: 0
       bottom: 0
       right: 0
