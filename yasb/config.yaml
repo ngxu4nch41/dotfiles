@@ -12,7 +12,7 @@ bars:
     screens: ['*']
     class_name: "yasb-bar"
     alignment:
-      position: "bottom"
+      "position": "bottom"
       center: true
     blur_effect:
       enabled: true
@@ -36,9 +36,7 @@ bars:
         [
           "search_button",
           "komorebi_workspaces",
-          "wallpapers",
-          
-          
+          active_window
         ]
       center: [
         "clock"
@@ -46,6 +44,7 @@ bars:
       right: 
           [
         systray,
+        "wallpapers",
         volume,
         power_menu
           ]
