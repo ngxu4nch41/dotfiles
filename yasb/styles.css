@@ -1,6 +1,6 @@
 *{
 	font-size: 13px;
-	color:  #d4be98 ;
+	color:  #d4be98 #f5c2e7 ;
 	font-weight : 500;
 	font-family: "JetBrainsMono Nerd Font Regular" , "JetBrainsMono NFP" ;
 	margin: 0;
@@ -9,16 +9,16 @@
 .yasb-bar {
 	padding: 0;
 	margin: 0 0px;
-background-color: #1a1a1d;
+background-color: #0000 #BA55D3 ;
 }
 .widget {
 	padding: 0 4px;
 	margin: 0 0px;
-color: #d4be98;
+color: #9A32CD;
 }
 .widget .label {
 	padding-bottom: 2px;
-color: #d4be98;
+color: #FFFFFF;
 }
 .widget .label:hover {
     color: #fff;
@@ -30,29 +30,7 @@ color: #d4be98;
 	padding: 0;
 }
 
-.komorebi-workspaces .ws-btn {
-	border-radius: 0px;
-	font-size: 10px;
-	width: 10px;
-	height: 10px;
-	margin: 0 4px 0 4px;
-	color: #45403d;
-	background-color: #45403d;
-}
-.komorebi-workspaces .ws-btn:hover,
-.komorebi-workspaces .ws-btn.populated:hover {
-	background-color: #fff;
-color: #d4be98;
-}
-.komorebi-workspaces .ws-btn.populated {
-	background-color: #d4be98;
-color: #d4be98;
-}
-.komorebi-workspaces .ws-btn.active {
-	background-color: #d4be98;
-	color: #d4be98;
-	width: 26px;
-}
+
 .search-widget {
     padding: 0 8px;
 }
@@ -155,10 +133,10 @@ color: #d4be98;
   .volume-slider {
 	border: none;
   }
-  .volume-slider::groove {}
+  .volume-slider::groove { }
   .volume-slider::handle{}
   .audio-menu {
-	background-color:rgba(17, 17, 27, 0.4);
+	background-color:rgba(2, 2, 2, 0.466);
   }
   .container-left,
   .container-center,
@@ -219,3 +197,26 @@ color: #d4be98;
 }
 
 
+.komorebi-workspaces .ws-btn {
+	border-radius: 0px;
+	font-size: 10px;
+	width: 10px;
+	height: 10px;
+	margin: 0 4px 0 4px;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+}
+.komorebi-workspaces .ws-btn:hover,
+.komorebi-workspaces .ws-btn.populated:hover {
+	background-color: #FFFFFF;
+color:#FFFFFF;
+}
+.komorebi-workspaces .ws-btn.populated {
+	background-color: #FFFFFF;
+color: #FFFFFF;
+}
+.komorebi-workspaces .ws-btn.active {
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	width: 26px;
+}
