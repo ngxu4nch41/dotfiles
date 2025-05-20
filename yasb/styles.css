@@ -1,222 +1,354 @@
+:root {
+    --bg: rgba(0,0,0,0.7) #000;
+    --main: #9ba2a7;
+    --wallpaper: url("C:/Users/boibl/AppData/Local/Temp/waves_crashing_waves_on_rocks.jpg");
+    --color1: #475B67;
+    --background: #101215 ;
+    --color9: #475B67;
+    --color7: #c3c3c4;
+    --color14: #768080;
+    --color10: #556973;
+    --color3: #67747B;
+    --cursor: #c3c3c4;
+    --color2: #556973;
+    --color5: #6D7B85;
+    --color13: #6D7B85;
+    --color0: #101215;
+    --color15: #c3c3c4;
+    --color6: #768080;
+    --color4: #5D7281;
+    --foreground: #c3c3c4;
+    --color11: #67747B;
+    --color8: #5a616e;
+    --color12: #5D7281;
+}
 *{
 	font-size: 13px;
-	color:  #d4be98 #f5c2e7 ;
-	font-weight : 500;
-	font-family: "JetBrainsMono Nerd Font Regular" , "JetBrainsMono NFP" ;
+	color: var(--main);
+	font-weight: 600;
+	font-family: "JetBrainsMono NFP", "Ndot 55";
 	margin: 0;
 	padding: 0;
-	}
+}
 .yasb-bar {
 	padding: 0;
-	margin: 0 0px;
-background-color: #0000 #BA55D3 ;
+	margin: 0;
+    background-color: var(--bg);
+    border-radius: 13px;
 }
 .widget {
-	padding: 0 4px;
-	margin: 0 0px;
-color: #9A32CD;
+	padding: 0 12px;
+	margin: 0;
+}
+.icon {
+	font-size: 16px;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-left: 0px;
+    color: var(--main);
 }
 .widget .label {
-	padding-bottom: 2px;
-color: #FFFFFF;
+	padding: 0px 2px;
+    color
 }
-.widget .label:hover {
+
+
+
+
+.komorebi-workspaces .offline-status {
+    color: var(--main);
+    font-size: 12px;
+    padding: 0 0 0 4px;
+    font-weight:600;
+}
+.komorebi-workspaces .ws-btn {
+    border: none;
+    color: var(--main);
+	margin:0;
+    font-size: 24px;
+    height: 34px;
+    width: 28px;
+}
+.komorebi-workspaces .ws-btn:hover {
+    background: transparent;
+    border-radius: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+
+    background-color: var(--color9);
+}
+.komorebi-workspaces .ws-btn.populated {
+    color: var(--main);
+}
+.komorebi-workspaces .ws-btn.active {
+    background-color: var(--color9);
+    border-radius: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+
+}
+.komorebi-workspaces .ws-btn.active:hover {
+    background-color: var(--color2);
+}
+
+.volume-widget .icon {
+    padding-right: 3px;
+    padding-left: 0px;
+    font-size: 14px;
+    max-width: 20px;
+    min-width: 22px;
+    margin-left: 2px;
+}
+.clock-widget .icon {
+    color: var(--blue);
+    padding-right: 6px;
+    padding-left: 0px;
+}
+.volume-slider {
+    border: none;
+}
+.audio-menu {
+    background-color:rgba(13, 6, 10, 0.3);
+}
+.audio-container .device {
+    background-color:transparent;
+    border: none;
+    padding:6px 8px 6px 4px;
+    margin: 2px 0;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.audio-container .device.selected {
+    background-color: rgba(255, 255, 255, 0.085);
+}
+.audio-container .device:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+}
+.calendar {
+    background-color: rgba(17, 17, 27, 0.4);
+}
+.calendar .calendar-table,
+.calendar .calendar-table::item {
+    background-color: rgba(17, 17, 27, 0);
+    color: rgba(162, 177, 196, 0.85);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+.calendar .calendar-table::item:selected {
+    color: rgb(255, 255, 255);
+}
+.calendar .day-label {
+    margin-top: 20px;
+}
+.calendar .day-label,
+.calendar .month-label,
+.calendar .date-label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
     color: #fff;
+    font-weight: 700;
+    min-width: 180px;
+    max-width: 180px;
 }
-.container-left,
-.container-center,
-.container-right {
-	margin: 0;
-	padding: 0;
+.calendar .month-label {
+    font-weight: normal;
 }
-
-
-.search-widget {
-    padding: 0 8px;
+.calendar .date-label {
+    font-size: 88px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-top: -20px;
 }
-.search-widget .label {
-	padding: 0 0px 0 5px;
+.volume-slider {
+    border: none;
 }
-
-/* --- Power Menu Popup --- */
-/* Uptime text */
-.uptime {
-	font-size: 12px;
-	margin: 0 0 4px;
-  }
-  .power-menu-widget .label {
-	font-size: 14px;
-	margin-left: 0px;
-  }
-  .power-menu-popup {
-	background-color: rgba(2, 2, 2, 0.466);
-	border-radius: 12px;
-	border: 0px solid rgb(0, 0, 0);
-  }
-  .power-menu-popup .button {
-	padding: 0;
-	width: 200px;
-	height: 160px;
-	border-radius: 4px;
-	background-color: rgba(66, 66, 68, 0.247);
-	color: white;
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	margin: 4px;
-  }
-  
-  
-  .power-menu-popup .button.hover {
-	background-color: rgb(64, 64, 68);
-	border: 1px solid rgb(26, 26, 27);
-  }
-  .power-menu-popup .button .label {
-	margin-bottom: 8px;
-	font-size: 16px;
-	font-weight: 600;
-	color: rgba(255, 255, 255, 0.425);
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  .power-menu-popup .button .icon {
-	font-size: 72px;
-	padding-top: 20px;
-	color: rgba(255, 255, 255, 0.25);
-  }
-  .power-menu-popup .button.cancel .icon {
-	color: rgba(139, 201, 243, 0.568);
-  }
-  .power-menu-popup .button.cancel .label {
-	color: rgba(139, 201, 243, 0.568);
-  }
-  .power-menu-popup .button.shutdown .icon {
-	color: rgba(255, 9, 9, 0.685);
-  }
-  .power-menu-popup .button.shutdown .label {
-	color: rgba(255, 9, 9, 0.685);
-  }
-
-
-  .wallpapers-widget {
-	padding: 0 7px 0 7px;
-  }
-  .wallpapers-gallery-window {
-	background-color: rgba(85, 42, 240, 0.01);
-	border: 0;
-	margin: 0;
-  }
-  .wallpapers-gallery-buttons {
-	background-color:rgba(255, 255, 255, 0);
-	color:var(--text);
-	border: none;
-	font-size: 16px;
-	padding: 8px 0;
-	border-radius: 8px;
-	margin:0 8px 8px 8px;
-	width: 600px;
-  }
-  .wallpapers-gallery-buttons:hover {
-	background-color:rgba(255, 255, 255, 0.1)
-  }
-  .wallpapers-gallery-image {
-	border: 4px solid transparent;
-	border-radius: 10px;
-  
-  }
-  .wallpapers-gallery-image:hover {
-	border: 4px solid var(--sapphire);
-  }
-  .wallpapers-gallery-image.focused {
-	border: 4px solid var(--sapphire);
-  
-  }
-
-
-  .volume-slider {
-	border: none;
-  }
-  .volume-slider::groove { }
-  .volume-slider::handle{}
-  .audio-menu {
-	background-color:rgba(2, 2, 2, 0.466);
-  }
-  .container-left,
-  .container-center,
-  .container-right {
-	  margin: 0;
-	  padding: 0;
-  }
-
-
-
+.volume-slider::groove {}
+.volume-slider::handle{}
+.audio-menu {
+    background-color:rgba(17, 17, 27, 0.4);
+}
+.audio-container .device {
+    background-color:transparent;
+    border: none;
+    padding:6px 8px 6px 4px;
+    margin: 2px 0;
+    font-size: 12px;
+    border-radius: 0px;
+}
+.audio-container .device.selected {
+    background-color: rgba(255, 255, 255, 0.085);
+}
+.audio-container .device:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+}
+.div-widget .label {
+    color: var(--surface1)
+}
+.div-widget {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.volume-widget {
+    margin-right: 3px;
+}
+.clock-widget {
+    margin: 0;
+    padding: 0;
+}
+.widget {
+    padding: 0;
+}
+.wifi-widget {
+    margin-right: 8px;
+}
+.brightness-widget {
+    margin-right: 2px;
+    margin-left: 0px;
+}
+.brightness-widget .icon {
+    margin-left: 0px;
+    padding-left: 0px;
+}
 .systray {
-  background: transparent;
-  border: None;
-  margin: 0;
+    background: transparent;
+    border: None;
+    margin: 0;
 }
 
 .systray .unpinned-container {
-  background: transparent;
-  border-radius: 8px;
+    background: transparent;
+    border-radius: 8px;
 }
 
 .systray .pinned-container {
-  background: transparent;
+    background: transparent;
 }
 
 .systray .pinned-container[forceshow=true] {
-  background: red;
+    background: red;
 }
 
 .systray .button {
-  border-radius: 4px;
-  padding: 2px 2px;
+    border-radius: 4px;
+    padding: 2px 2px;
 }
 
 .systray .button:hover {
-  background: #727272;
+    background: #727272;
 }
 
 .systray .button[dragging=true] {
-  background: orange;
-  border-color: #FF8800;
+    background: orange;
+    border-color: #FF8800;
 }
 
 .systray .unpinned-visibility-btn {
-  border-radius: 4px;
-  height: 20px;
-  width: 16px;
+    border-radius: 4px;
+    height: 20px;
+    width: 16px;
 }
 
 .systray .unpinned-visibility-btn:checked {
-  background: transparent;
+    background: transparent;
 }
 
 .systray .unpinned-visibility-btn:hover {
-  border: 0px solid #AAAAAA;
-  border-radius: 4px;
-  border-color: #AAAAAA;
+    border: 0px solid #AAAAAA;
+    border-radius: 4px;
+    border-color: #AAAAAA;
+}
+.wallpapers-widget {
+    padding: 0 7px 0 7px;
+}
+.wallpapers-gallery-window {
+    background-color: rgba(85, 42, 240, 0.01);
+    border: 0;
+    margin: 0;
+}
+.wallpapers-gallery-buttons {
+    background-color:rgba(255, 255, 255, 0);
+    color:var(--text);
+    border: none;
+    font-size: 16px;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin:0 8px 8px 8px;
+    width: 600px;
+}
+.wallpapers-gallery-buttons:hover {
+    background-color:rgba(255, 255, 255, 0.1)
+}
+.wallpapers-gallery-image {
+    border: 4px solid transparent;
+    border-radius: 10px;
+
+}
+.wallpapers-gallery-image:hover {
+    border: 4px solid var(--sapphire);
+}
+.wallpapers-gallery-image.focused {
+    border: 4px solid var(--sapphire);
+}
+/* --- Power Menu Popup --- */
+/* Uptime text */
+.uptime {
+    font-size: 12px;
+    margin: 0 0 4px;
+}
+.power-menu-widget .label {
+    font-size: 14px;
+    margin-left: 0px;
+}
+.power-menu-popup {
+    background-color: rgba(2, 2, 2, 0.466);
+    border-radius: 12px;
+    border: 0px solid rgb(0, 0, 0);
+}
+.power-menu-popup .button {
+    padding: 0;
+    width: 150px;
+    height: 110px;
+    border-radius: 10px;
+    background-color: rgba(66, 66, 68, 0.247);
+    color: white;
+    border: 0px solid rgba(255, 255, 255, 0.1);
+    margin: 4px;
 }
 
 
-.komorebi-workspaces .ws-btn {
-	border-radius: 0px;
-	font-size: 10px;
-	width: 10px;
-	height: 10px;
-	margin: 0 4px 0 4px;
-	color: #FFFFFF;
-	background-color: #FFFFFF;
+.power-menu-popup .button.hover {
+    background-color: rgb(64, 64, 68);
+    border: 0px solid rgb(26, 26, 27);
 }
-.komorebi-workspaces .ws-btn:hover,
-.komorebi-workspaces .ws-btn.populated:hover {
-	background-color: #FFFFFF;
-color:#FFFFFF;
+.power-menu-popup .button .label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.425);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.komorebi-workspaces .ws-btn.populated {
-	background-color: #FFFFFF;
-color: #FFFFFF;
+.power-menu-popup .button .icon {
+    font-size: 42px;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.25);
 }
-.komorebi-workspaces .ws-btn.active {
-	background-color: #FFFFFF;
-	color: #FFFFFF;
-	width: 26px;
+.power-menu-popup .button.cancel .icon {
+    color: rgba(139, 201, 243, 0.568);
+}
+.power-menu-popup .button.cancel .label {
+    color: rgba(139, 201, 243, 0.568);
+}
+.power-menu-popup .button.shutdown .icon {
+    color: rgba(255, 9, 9, 0.685);
+}
+.power-menu-popup .button.shutdown .label {
+    color: rgba(255, 9, 9, 0.685);
 }
