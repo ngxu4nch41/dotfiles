@@ -1,9 +1,9 @@
 :root {
     --bg: rgba(0,0,0,0.7) #000;
     --main: #9ba2a7;
-    --wallpaper: url("C:/Users/boibl/AppData/Local/Temp/waves_crashing_waves_on_rocks.jpg");
+    --wallpaper: url("C:/Users/ngxuanchat/wallpapers/paperairplanes.png");
     --color1: #475B67;
-    --background: #101215 ;
+    --background: #101215;
     --color9: #475B67;
     --color7: #c3c3c4;
     --color14: #768080;
@@ -24,9 +24,9 @@
 }
 *{
 	font-size: 13px;
-	color: var(--main);
+	color: var(--bg);
 	font-weight: 600;
-	font-family: "JetBrainsMono NFP", "Ndot 55";
+	font-family: "JetBrainsMono NFP", "Ndot 55" , "Pretendard", "Segoe Fluent Icons", sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -45,25 +45,22 @@
     padding-right: 4px;
     padding-left: 4px;
     margin-left: 0px;
-    color: var(--main);
+    color: var(--bg);
 }
 .widget .label {
 	padding: 0px 2px;
     color
 }
 
-
-
-
 .komorebi-workspaces .offline-status {
-    color: var(--main);
+    color: var(--bg);
     font-size: 12px;
     padding: 0 0 0 4px;
     font-weight:600;
 }
 .komorebi-workspaces .ws-btn {
     border: none;
-    color: var(--main);
+    color: var(--bg);
 	margin:0;
     font-size: 24px;
     height: 34px;
@@ -80,7 +77,7 @@
     background-color: var(--color9);
 }
 .komorebi-workspaces .ws-btn.populated {
-    color: var(--main);
+    color: var(--bg);
 }
 .komorebi-workspaces .ws-btn.active {
     background-color: var(--color9);
@@ -351,4 +348,52 @@
 }
 .power-menu-popup .button.shutdown .label {
     color: rgba(255, 9, 9, 0.685);
+}
+
+.media-widget {
+  margin: 5px 0;
+  padding-left: 0px;
+  padding-right: 4px;
+  background: hsla(0, 0%, 100%, 0.05);
+  border-radius: 8px;
+}
+.media-widget .widget-container {
+}
+.media-widget .label {
+  margin: 4px;
+  border-radius: 5px;
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-top-color: hsla(0, 0%, 100%, 0.1);
+  border-bottom-color: hsla(0, 0%, 100%, 0.1);
+  border-color: transparent;
+  color: var(--bg);
+}
+.media-widget .label:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+  border-color: hsla(0, 0%, 100%, 0.1);
+  border-top-color: hsla(0, 0%, 100%, 0.25);
+  border-bottom-color: hsla(0, 0%, 100%, 0.25);
+  color: var(--text-color-hover);
+}
+.media-widget .label.alt {}
+.media-widget .btn {
+  margin: 3px 0;
+  padding: 0 4px;
+  background: hsla(0, 0%, 100%, 0.1);
+  border-radius: 6px;
+}
+.media-widget .btn:hover {
+  background: hsla(0, 0%, 100%, 0.25);
+}
+.media-widget .btn.play {
+}
+.media-widget .btn.prev {
+  margin-right: 2px;
+  margin-left: 4px;
+}
+.media-widget .btn.next {
+  margin-left:2px;
+}
+.media-widget .btn.disabled,.media-widget .btn.disabled:hover {
+  background: hsla(0, 0%, 100%, 0.03);
 }
