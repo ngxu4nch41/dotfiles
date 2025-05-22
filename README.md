@@ -1,10 +1,3 @@
-the dotfiles
-![{478AB9C0-02EB-4EC9-ADB7-C01E7098622A}](https://github.com/user-attachments/assets/7a90ecfc-96b4-426d-9784-b9b3bfa0ede5)
-![ojCapture](https://github.com/user-attachments/assets/6ba8f661-0e1a-431a-92ba-5c612be02a3b)
-![{714984F7-882C-485D-9D2A-87A5A8B04D45}](https://github.com/user-attachments/assets/e0c5fff3-d6c9-438f-9799-6356215052a0)
-
-
-
-
-
+![{20E07638-9DBA-4D53-A709-5A5EE8A938C2}](https://github.com/user-attachments/assets/28252b17-ec8e-4471-8e99-718392835bfb)
+![{FD4D56AF-2AA5-4C65-B34B-BAD9E7388E52}](https://github.com/user-attachments/assets/a9cfcac0-1644-4efd-9ba7-838c12a4d194)
 
