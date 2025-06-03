@@ -9,12 +9,10 @@ alt + shift + o         : komorebic reload-configuration
 # The apps will be focused if open, or launched if not open
 # alt + f                 : if ($wshell.AppActivate('Firefox') -eq $False) { start firefox }
 # alt + b                 : if ($wshell.AppActivate('Chrome') -eq $False) { start chrome }
-alt + e          : start "C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.22.10731.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe"
-alt + b          : start "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Zen.lnk"
 
 alt + q                 : komorebic close
 alt + m                 : komorebic minimize
-
+alt + a        		: yasbc toggle-bar
 # Focus windows
 alt + h                 : komorebic focus left
 alt + j                 : komorebic focus down
@@ -46,7 +44,7 @@ alt + shift + oem_plus  : komorebic resize-axis vertical increase
 alt + shift + oem_minus : komorebic resize-axis vertical decrease
 
 # Manipulate windows
-alt + g               : komorebic toggle-float
+alt + t                 : komorebic toggle-float
 alt + shift + f         : komorebic toggle-monocle
 
 # Window manager options
@@ -66,6 +64,7 @@ alt + 5                 : komorebic focus-workspace 4
 alt + 6                 : komorebic focus-workspace 5
 alt + 7                 : komorebic focus-workspace 6
 alt + 8                 : komorebic focus-workspace 7
+alt + 9			: komorebic focus-workspace 8
 
 # Move windows across workspaces
 alt + shift + 1         : komorebic move-to-workspace 0

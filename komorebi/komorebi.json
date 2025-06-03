@@ -14,17 +14,18 @@
   "border": true,
   "border_colours": {
     "unfocused": "#00000000",
-    "stack": "#ffffff",
-    "monocle": "#ffffff",
-    "single": "#ffffff"
+    "stack": "#000000",
+    "monocle": "#000000",
+    "single": "#000000",
+    "floating": "#000000"
   },
   "border_implementation": "Komorebi",
   "border_offset": -1,
-  "border_style": "Rounded",
-  "border_width": 4,
+  "border_style": "System",
+  "border_width": 3,
   "cross_monitor_move_behaviour": "Insert",
-  "default_container_padding": 5,
-  "default_workspace_padding": 8,
+  "default_container_padding": 6,
+  "default_workspace_padding": 7,
   "float_override": false,
   "global_work_area_offset": {
     "left": 0,
@@ -47,7 +48,7 @@
     "mode": "OnStack"
   },
   "transparency": false,
-  "transparency_alpha": 230,
+  "transparency_alpha": 190,
   "unmanaged_window_operation_behaviour": "Op",
   "window_container_behaviour": "Create",
   "window_hiding_behaviour": "Minimize",
